@@ -25,8 +25,17 @@ body {
 .row div.on:hover {
   background: #6fd4ff;
 }
+
+.eyes {
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    display: inline-block;
+}
 .eyes .small {
   display: inline-block;
+    margin: 10px 20px;
 }
 
 .small.reverse {
