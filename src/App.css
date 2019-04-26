@@ -1,3 +1,50 @@
+body {
+  background-color: #282c34;
+}
+
+.big .row {
+  height: 16px;
+}
+.big .row div{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: cadetblue inset 0 0 1px;
+  cursor: pointer;
+}
+
+.row div:hover {
+  background: #335e72;
+}
+
+.row div.on{
+  background: #61dafb;
+}
+
+.row div.on:hover {
+  background: #6fd4ff;
+}
+.eyes .small {
+  display: inline-block;
+}
+
+.small.reverse {
+  transform: scaleX(-1);
+}
+
+.small .row {
+  height: 6px;
+}
+.small .row div{
+  width: 4px;
+  height: 4px;
+  margin: 1px;
+  border-radius: 3px;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +56,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
